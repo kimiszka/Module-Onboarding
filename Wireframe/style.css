@@ -36,7 +36,6 @@ body {
 a {
   padding: var(--space);
   border: var(--line);
-  max-width: fit-content;
 }
 img,
 svg {
@@ -50,6 +49,7 @@ https://www.w3.org/WAI/tutorials/page-structure/regions/
 
 header {
   text-align: center;
+  margin-bottom: 10px;
 }
 main {
   max-width: var(--container);
