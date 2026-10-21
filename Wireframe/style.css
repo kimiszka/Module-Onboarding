@@ -55,13 +55,10 @@ main {
   max-width: var(--container);
   margin: 0 auto calc(var(--space) * 4) auto;
   flex: 1 0 auto;
-
 }
 
 footer {
   bottom: 0;
-  top: -6px;
-  padding: var(--space);
   text-align: center;
   border-top: var(--line);
   width: 100%;
