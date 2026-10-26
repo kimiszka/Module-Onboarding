@@ -9,19 +9,37 @@
   </head>
   <body>
     <header>
-      <h1>Product Pick</h1>
+      <h1>Order Your Shirt 👕</h1>
     </header>
     <main>
       <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
+        <label for="name">Full Name </label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email </label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <fieldset>
+          <legend>What size t-shirt would you like?</legend>
+          <label><input type="radio" name="size" value="small">XS</label>
+          <label><input type="radio" name="size" value="small">S</label>
+          <label><input type="radio" name="size" value="medium">M</label>
+          <label><input type="radio" name="size" value="large">L</label>
+          <label><input type="radio" name="size" value="large">XL</label>
+          <label><input type="radio" name="size" value="large">XXL</label>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>What color t-shirt would you like?</legend>
+          <label><input type="radio" name="color" value="white"> Marshmallow White</label>
+          <label><input type="radio" name="color" value="blue"> Deep Sea Blue</label>
+          <label><input type="radio" name="color" value="green"> Lucky Clover Green</label>
+          <label><input type="radio" name="color" value="black"> Midnight Black</label>
+        
       </form>
     </main>
     <footer>
-      <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <p> © 2026 Kimberly N. MigraCode | Class 1 Oct 2026 | Form Controls Assignment </p> 
     </footer>
   </body>
 </html>
